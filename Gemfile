@@ -33,7 +33,7 @@ gem 'therubyracer'
 # gem 'jbuilder'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+gem 'unicorn'
 
 # Deploy with Capistrano
 # gem 'capistrano'
@@ -41,7 +41,7 @@ gem 'therubyracer'
 # To use debugger
 # gem 'debugger'
 
-## group :production do
-  ## gem 'pg', '0.12.2'
-## end
+group :production do
+  gem 'pg', '0.12.2'
+end
 
