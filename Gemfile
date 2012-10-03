@@ -23,6 +23,8 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'execjs'
+gem 'therubyracer'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -39,7 +41,7 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'debugger'
 
-group :production do
-  gem 'pg', '0.12.2'
-end
+## group :production do
+  ## gem 'pg', '0.12.2'
+## end
 
